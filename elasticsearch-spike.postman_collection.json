@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "c64ec70c-c228-401a-954a-e4a41c1c5cfe",
+		"name": "elasticsearch-spike",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28650719"
+	},
+	"item": [
+		{
+			"name": "save-a-file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/sarat/Downloads/Enriched 1.json"
+						}
+					]
+				},
+				"url": "http://localhost:8080/file/upload"
+			},
+			"response": []
+		},
+		{
+			"name": "get-image",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
