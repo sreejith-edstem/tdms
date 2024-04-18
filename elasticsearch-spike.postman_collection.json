@@ -32,6 +32,14 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "getting-query",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
